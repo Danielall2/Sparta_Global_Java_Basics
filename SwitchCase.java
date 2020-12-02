@@ -2,6 +2,7 @@ package com.sparta.daniel;
 
 public class SwitchCase {
 
+    // Simple example of using a switchCase method
     public static void switchCase(int caseNumber){
 
         switch(caseNumber) {
@@ -15,13 +16,13 @@ public class SwitchCase {
                 System.out.println("Whats this? You dare pick number " + caseNumber + "!");
                 break;
             case 4:
-                System.out.println("This is getting out of hand! Who in there right mind picks 4?");
+                System.out.println("This is getting out of hand! Who in their right mind picks 4?");
                 break;
             case 5:
                 System.out.println("Just go");
                 break;
             default:
-                System.out.println("Pick an integer between 1 and 5 god damn it!");
+                System.out.println("Pick an integer between 1 and 5!");
         }
 
     }
